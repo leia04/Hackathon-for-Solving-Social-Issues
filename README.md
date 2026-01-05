@@ -10,6 +10,13 @@ Public statistics indicate that housing conditions are a major driver of youth o
 
 The challenge is to identify housing locations that allow residents to access essential daily-life infrastructure within walking distance, under limited site selection constraints.
 
+
+## Key Findings
+- Three optimal locations were identified within Changwon City, each providing access to diverse daily-life infrastructure within walking distance.  
+- The optimization-based approach ensures transparent and reproducible site selection compared to heuristic placement.
+
+
+
 ## Approach
 The analysis follows a structured pipeline:
 
@@ -40,9 +47,6 @@ The final site selection was formulated as a Maximal Covering Location Problem (
 
 Binary decision variables were used to model site selection.
 
-## Key Findings
-- Three optimal locations were identified within Changwon City, each providing access to diverse daily-life infrastructure within walking distance.  
-- The optimization-based approach ensures transparent and reproducible site selection compared to heuristic placement.
 
 ## Code
 - `io.py`: Loads and preprocesses spatial grid data and precomputed facility distance data.
